@@ -1,0 +1,192 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/22</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 19 16:53:21 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>1 seconds (1449 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.lockedUserErCheck()'><b>lockedUserErCheck</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: locked_out_user, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginBtnTest()'><b>loginBtnTest</b><br>Test class: com.swaglab.test.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginValidTest()'><b>loginValidTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: standard_user
+, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginValidTest()'><b>loginValidTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: problem_user, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginValidTest()'><b>loginValidTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: performance_glitch_user, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: standard_user
+, afdasfw3754@#!</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: locked_out_user, asda@#5+B284</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: problem_user, adasd</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: performance_glitch_user, bjghjyhjhj</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: alok, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: sanjay, secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: deore, asdasdads</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithInvalid()'><b>loginWithInvalid</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: hemalata, 5fhgfhgfh</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithOnlyPswTest()'><b>loginWithOnlyPswTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: secret_sauce</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithOnlyUsernameTest()'><b>loginWithOnlyUsernameTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: standard_user
+</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithOnlyUsernameTest()'><b>loginWithOnlyUsernameTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: locked_out_user</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithOnlyUsernameTest()'><b>loginWithOnlyUsernameTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: problem_user</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.loginWithOnlyUsernameTest()'><b>loginWithOnlyUsernameTest</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: performance_glitch_user</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.logoCheckTest()'><b>logoCheckTest</b><br>Test class: com.swaglab.test.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.passwordHiddenTest()'><b>passwordHiddenTest</b><br>Test class: com.swaglab.test.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.placeHolder()'><b>placeHolder</b><br>Test class: com.swaglab.test.LoginPageTest<br>Parameters: Username, Password</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+<tr>
+<td title='com.swaglab.test.LoginPageTest.textFieldEnbTest()'><b>textFieldEnbTest</b><br>Test class: com.swaglab.test.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.swaglab.test.LoginPageTest@1b45c0e</td></tr>
+</table><p>
+</body>
+</html>

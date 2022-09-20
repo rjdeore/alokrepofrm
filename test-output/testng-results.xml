@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="29" passed="0" failed="0" skipped="29">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-19T11:23:21Z" name="Suite" finished-at="2022-09-19T11:23:23Z" duration-ms="1539">
+    <groups>
+      <group name="sanity">
+        <method signature="LoginPageTest.loginValidTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" name="loginValidTest" class="com.swaglab.test.LoginPageTest"/>
+        <method signature="LoginPageTest.placeHolder(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" name="placeHolder" class="com.swaglab.test.LoginPageTest"/>
+        <method signature="AllProductPageTest.verifyTitleofpage()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" name="verifyTitleofpage" class="com.swaglab.test.AllProductPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-09-19T11:23:21Z" name="Test" finished-at="2022-09-19T11:23:23Z" duration-ms="1449">
+      <class name="com.swaglab.test.LoginPageTest">
+        <test-method signature="placeHolder(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="placeHolder" data-provider="placehold" finished-at="2022-09-19T16:53:22Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeHolder -->
+        <test-method signature="loginBtnTest()[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginBtnTest" finished-at="2022-09-19T16:53:22Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBtnTest -->
+        <test-method signature="logoCheckTest()[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="logoCheckTest" finished-at="2022-09-19T16:53:22Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoCheckTest -->
+        <test-method signature="passwordHiddenTest()[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="passwordHiddenTest" finished-at="2022-09-19T16:53:22Z" duration-ms="6" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordHiddenTest -->
+        <test-method signature="textFieldEnbTest()[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="textFieldEnbTest" finished-at="2022-09-19T16:53:22Z" duration-ms="6" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- textFieldEnbTest -->
+        <test-method signature="loginWithOnlyUsernameTest(java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginWithOnlyUsernameTest" data-provider="dt1" finished-at="2022-09-19T16:53:22Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUsernameTest -->
+        <test-method signature="loginWithOnlyUsernameTest(java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginWithOnlyUsernameTest" data-provider="dt1" finished-at="2022-09-19T16:53:22Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUsernameTest -->
+        <test-method signature="loginWithOnlyUsernameTest(java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginWithOnlyUsernameTest" data-provider="dt1" finished-at="2022-09-19T16:53:22Z" duration-ms="5" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUsernameTest -->
+        <test-method signature="loginWithOnlyUsernameTest(java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginWithOnlyUsernameTest" data-provider="dt1" finished-at="2022-09-19T16:53:22Z" duration-ms="6" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyUsernameTest -->
+        <test-method signature="loginValidTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginValidTest" data-provider="validData" finished-at="2022-09-19T16:53:22Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidTest -->
+        <test-method signature="loginValidTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginValidTest" data-provider="validData" finished-at="2022-09-19T16:53:22Z" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidTest -->
+        <test-method signature="loginValidTest(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginValidTest" data-provider="validData" finished-at="2022-09-19T16:53:22Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginValidTest -->
+        <test-method signature="loginWithOnlyPswTest(java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="loginWithOnlyPswTest" data-provider="datapsw" finished-at="2022-09-19T16:53:22Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithOnlyPswTest -->
+        <test-method signature="lockedUserErCheck(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:22Z" name="lockedUserErCheck" data-provider="lockedus" finished-at="2022-09-19T16:53:22Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lockedUserErCheck -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="14" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user
+]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[afdasfw3754@#!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asda@#5+B284]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="5" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adasd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bjghjyhjhj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alok]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="4" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjay]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="2" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[deore]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[asdasdads]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+        <test-method signature="loginWithInvalid(java.lang.String, java.lang.String)[pri:0, instance:com.swaglab.test.LoginPageTest@1b45c0e]" started-at="2022-09-19T16:53:23Z" name="loginWithInvalid" data-provider="invalData" finished-at="2022-09-19T16:53:23Z" duration-ms="3" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hemalata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5fhgfhgfh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalid -->
+      </class> <!-- com.swaglab.test.LoginPageTest -->
+    </test> <!-- Test -->
+    <test started-at="2022-09-19T11:23:23Z" name="Test1" finished-at="2022-09-19T11:23:23Z" duration-ms="35">
+      <class name="com.swaglab.test.AllProductPageTest">
+        <test-method is-config="true" signature="bSuite()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:17Z" name="bSuite" finished-at="2022-09-19T16:53:17Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.102 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ALOK-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.102 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'ALOK-PC', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:46)
+	at com.swaglab.base.SwaglabBase.initialisation(SwaglabBase.java:23)
+	at com.swaglab.test.BaseTest.bSuite(BaseTest.java:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bSuite -->
+        <test-method is-config="true" signature="setupForPage()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="setupForPage" finished-at="2022-09-19T16:53:23Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupForPage -->
+        <test-method signature="verifycheckMenuOptn()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifycheckMenuOptn" finished-at="2022-09-19T16:53:23Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycheckMenuOptn -->
+        <test-method signature="verifyTitleofpage()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifyTitleofpage" finished-at="2022-09-19T16:53:23Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleofpage -->
+        <test-method signature="verifyclosingOfMenu()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifyclosingOfMenu" finished-at="2022-09-19T16:53:23Z" duration-ms="5" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyclosingOfMenu -->
+        <test-method signature="verifyfilterOptionDilpayed()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifyfilterOptionDilpayed" finished-at="2022-09-19T16:53:23Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfilterOptionDilpayed -->
+        <test-method signature="verifyimgOfProduct()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifyimgOfProduct" finished-at="2022-09-19T16:53:23Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyimgOfProduct -->
+        <test-method signature="verifynumberOfProducts()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifynumberOfProducts" finished-at="2022-09-19T16:53:23Z" duration-ms="1" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynumberOfProducts -->
+        <test-method signature="verifynavigatingToCartFromAllProdPage()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="verifynavigatingToCartFromAllProdPage" finished-at="2022-09-19T16:53:23Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynavigatingToCartFromAllProdPage -->
+        <test-method is-config="true" signature="closingTest()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="closingTest" finished-at="2022-09-19T16:53:23Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingTest -->
+        <test-method is-config="true" signature="aSuite()[pri:0, instance:com.swaglab.test.AllProductPageTest@7c214cc0]" started-at="2022-09-19T16:53:23Z" name="aSuite" finished-at="2022-09-19T16:53:23Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aSuite -->
+      </class> <!-- com.swaglab.test.AllProductPageTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>

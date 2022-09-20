@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Failed suite [Default suite]]">
+  <test parallel="none" name="Default test(failed)(failed)">
+    <classes>
+      <class name="com.swaglab.test.AllProductPageTest">
+        <methods>
+          <include name="verifyimgOfProduct"/>
+          <include name="aSuite"/>
+          <include name="startAllProductPage"/>
+          <include name="endAllProductPage"/>
+          <include name="verifyfilterOptionDilpayed"/>
+          <include name="bSuite"/>
+        </methods>
+      </class> <!-- com.swaglab.test.AllProductPageTest -->
+    </classes>
+  </test> <!-- Default test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Default suite]] -->

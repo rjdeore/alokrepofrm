@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]">
+  <test parallel="classes" name="Test(failed)">
+    <classes>
+      <class name="com.swaglab.test.LoginPageTest">
+        <methods>
+          <include name="loginWithInvalid"/>
+          <include name="textFieldEnbTest"/>
+          <include name="logoCheckTest"/>
+          <include name="loginWithOnlyPswTest"/>
+          <include name="lockedUserErCheck"/>
+          <include name="passwordHiddenTest"/>
+          <include name="loginBtnTest"/>
+          <include name="loginValidTest"/>
+          <include name="loginWithOnlyUsernameTest"/>
+          <include name="placeHolder"/>
+        </methods>
+      </class> <!-- com.swaglab.test.LoginPageTest -->
+      <class name="com.swaglab.test.AllProductPageTest">
+        <methods>
+          <include name="bSuite"/>
+        </methods>
+      </class> <!-- com.swaglab.test.AllProductPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test parallel="classes" name="Test1(failed)">
+    <classes>
+      <class name="com.swaglab.test.AllProductPageTest">
+        <methods>
+          <include name="verifycheckMenuOptn"/>
+          <include name="verifyimgOfProduct"/>
+          <include name="verifynumberOfProducts"/>
+          <include name="verifynavigatingToCartFromAllProdPage"/>
+          <include name="verifyclosingOfMenu"/>
+          <include name="verifyfilterOptionDilpayed"/>
+          <include name="bSuite"/>
+          <include name="verifyTitleofpage"/>
+        </methods>
+      </class> <!-- com.swaglab.test.AllProductPageTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

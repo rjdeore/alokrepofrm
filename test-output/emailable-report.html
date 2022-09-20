@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.result,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.result td,table.result th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.result th {vertical-align:bottom}
+tr.param th {padding-left:1em;padding-right:1em}
+tr.param td {padding-left:.5em;padding-right:2em}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.result td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.result tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Test</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">22</td><td class="numi">0</td><td class="numi">1.4 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="stripe"><td style="text-align:left;padding-right:2em">Test1</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">7</td><td class="numi">0</td><td class="numi">0.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr class="total"><td>Total</td>
+<td class="numi">0</td><td class="numi">0</td><td class="numi_attn">29</td><td class="numi">0</td><td class="numi">1.5 seconds</td><td colspan="2">&nbsp;</td></tr>
+</table>
+<table cellspacing="0" cellpadding="0" class="passed" id="summary">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="22">com.swaglab.test.LoginPageTest</td><td><a href="#m1"><b>placeHolder</b> (sanity) </a></td><td class="numi">1</td><td>1663586602627</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m2"><b>loginBtnTest</b>  </a></td><td class="numi">1</td><td>1663586602632</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m3"><b>logoCheckTest</b>  </a></td><td class="numi">1</td><td>1663586602636</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m4"><b>passwordHiddenTest</b>  </a></td><td class="numi">1</td><td>1663586602640</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m5"><b>textFieldEnbTest</b>  </a></td><td class="numi">1</td><td>1663586602658</td><td class="numi">6</td></tr><tr class="skippedodd"><td><a href="#m6"><b>loginWithOnlyUsernameTest</b>  </a></td><td class="numi">4</td><td>1663586602732</td><td class="numi">34</td></tr><tr class="skippedodd"><td><a href="#m7"><b>loginWithOnlyUsernameTest</b>  </a></td><td class="numi">4</td><td>1663586602732</td><td class="numi">34</td></tr><tr class="skippedodd"><td><a href="#m8"><b>loginWithOnlyUsernameTest</b>  </a></td><td class="numi">4</td><td>1663586602732</td><td class="numi">34</td></tr><tr class="skippedodd"><td><a href="#m9"><b>loginWithOnlyUsernameTest</b>  </a></td><td class="numi">4</td><td>1663586602732</td><td class="numi">34</td></tr><tr class="skippedodd"><td><a href="#m10"><b>loginValidTest</b> (sanity) </a></td><td class="numi">3</td><td>1663586602819</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m11"><b>loginValidTest</b> (sanity) </a></td><td class="numi">3</td><td>1663586602819</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m12"><b>loginValidTest</b> (sanity) </a></td><td class="numi">3</td><td>1663586602819</td><td class="numi">14</td></tr><tr class="skippedodd"><td><a href="#m13"><b>loginWithOnlyPswTest</b>  </a></td><td class="numi">1</td><td>1663586602885</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m14"><b>lockedUserErCheck</b>  </a></td><td class="numi">1</td><td>1663586602950</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m15"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m16"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m17"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m18"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m19"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m20"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m21"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr><tr class="skippedodd"><td><a href="#m22"><b>loginWithInvalid</b>  </a></td><td class="numi">8</td><td>1663586603030</td><td class="numi">74</td></tr>
+<tr><th colspan="4">Test1 &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">com.swaglab.test.AllProductPageTest</td><td><a href="#m23"><b>bSuite</b> (sanity) </a></td><td class="numi">1</td><td>1663586597168</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test1 &#8212; skipped (configuration methods)</th></tr>
+<tr class="skippedodd"><td rowspan="3">com.swaglab.test.AllProductPageTest</td><td><a href="#m24"><b>aSuite</b> (sanity) </a></td><td class="numi">1</td><td>1663586603243</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m25"><b>closingTest</b> (sanity) </a></td><td class="numi">1</td><td>1663586603196</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m26"><b>setupForPage</b> (sanity) </a></td><td class="numi">1</td><td>1663586603167</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Test1 &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="7">com.swaglab.test.AllProductPageTest</td><td><a href="#m27"><b>verifycheckMenuOptn</b>  </a></td><td class="numi">1</td><td>1663586603169</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m28"><b>verifyTitleofpage</b> (sanity) </a></td><td class="numi">1</td><td>1663586603174</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m29"><b>verifyclosingOfMenu</b>  </a></td><td class="numi">1</td><td>1663586603176</td><td class="numi">5</td></tr><tr class="skippedodd"><td><a href="#m30"><b>verifyfilterOptionDilpayed</b>  </a></td><td class="numi">1</td><td>1663586603182</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m31"><b>verifyimgOfProduct</b>  </a></td><td class="numi">1</td><td>1663586603188</td><td class="numi">2</td></tr><tr class="skippedodd"><td><a href="#m32"><b>verifynumberOfProducts</b>  </a></td><td class="numi">1</td><td>1663586603192</td><td class="numi">1</td></tr><tr class="skippedodd"><td><a href="#m33"><b>verifynavigatingToCartFromAllProdPage</b>  </a></td><td class="numi">1</td><td>1663586603194</td><td class="numi">0</td></tr>
+</table>
+<h1>Test</h1>
+<h2 id="m1">com.swaglab.test.LoginPageTest:loginWithOnlyUsernameTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>standard_user
+</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">com.swaglab.test.LoginPageTest:loginValidTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>performance_glitch_user</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>alok</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>standard_user
+</td>
+<td>afdasfw3754@#!</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">com.swaglab.test.LoginPageTest:textFieldEnbTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">com.swaglab.test.LoginPageTest:loginValidTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>problem_user</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">com.swaglab.test.LoginPageTest:loginWithOnlyPswTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>deore</td>
+<td>asdasdads</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">com.swaglab.test.LoginPageTest:logoCheckTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">com.swaglab.test.LoginPageTest:loginWithOnlyUsernameTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>performance_glitch_user</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>problem_user</td>
+<td>adasd</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">com.swaglab.test.LoginPageTest:loginBtnTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>locked_out_user</td>
+<td>asda@#5+B284</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">com.swaglab.test.LoginPageTest:placeHolder</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>Username</td>
+<td>Password</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">com.swaglab.test.LoginPageTest:loginValidTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>standard_user
+</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">com.swaglab.test.LoginPageTest:loginWithOnlyUsernameTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>locked_out_user</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">com.swaglab.test.LoginPageTest:passwordHiddenTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>performance_glitch_user</td>
+<td>bjghjyhjhj</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">com.swaglab.test.LoginPageTest:loginWithOnlyUsernameTest</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th></tr>
+<tr class="param stripe"><td>problem_user</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>sanjay</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">com.swaglab.test.LoginPageTest:lockedUserErCheck</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>locked_out_user</td>
+<td>secret_sauce</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">com.swaglab.test.LoginPageTest:loginWithInvalid</h2>
+<table cellspacing="0" cellpadding="0" class="result">
+<tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr>
+<tr class="param stripe"><td>hemalata</td>
+<td>5fhgfhgfh</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h1>Test1</h1>
+<h2 id="m23">com.swaglab.test.AllProductPageTest:bSuite</h2>
+<div style="padding-left:3em">
+<p>Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 96
+Current browser version is 98.0.4758.102 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;ALOK-PC&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]</p>
+org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:168)
+<br/>at org.openqa.selenium.chromium.ChromiumDriver.&lt;init&gt;(ChromiumDriver.java:108)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:104)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:91)
+<br/>at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:46)
+<br/>at com.swaglab.base.SwaglabBase.initialisation(SwaglabBase.java:23)
+<br/>at com.swaglab.test.BaseTest.bSuite(BaseTest.java:16)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+<br/>at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+<br/>at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+<br/>at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+<br/>at org.testng.TestNG.run(TestNG.java:1031)
+<br/>at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+<br/>at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+<br/>at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m24">com.swaglab.test.AllProductPageTest:aSuite</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m25">com.swaglab.test.AllProductPageTest:closingTest</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m26">com.swaglab.test.AllProductPageTest:setupForPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m27">com.swaglab.test.AllProductPageTest:verifyclosingOfMenu</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m28">com.swaglab.test.AllProductPageTest:verifycheckMenuOptn</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m29">com.swaglab.test.AllProductPageTest:verifyimgOfProduct</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m30">com.swaglab.test.AllProductPageTest:verifynumberOfProducts</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m31">com.swaglab.test.AllProductPageTest:verifyfilterOptionDilpayed</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m32">com.swaglab.test.AllProductPageTest:verifyTitleofpage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m33">com.swaglab.test.AllProductPageTest:verifynavigatingToCartFromAllProdPage</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>
